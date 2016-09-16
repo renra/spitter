@@ -18,7 +18,6 @@ http.createServer(function(request, response){
   //var headers = ()
 
   response.writeHead(200);
-  response.end();
 
   console.log('*****************');
   console.log('Incoming request to ' + request.url);
@@ -43,5 +42,5 @@ http.createServer(function(request, response){
     console.log('');
   });
 
-  //response.end('<pre>' + JSON.stringify(cookies, null, 2) + '<pre>');
+  response.end();
 }).listen(process.env.PORT || 3000);
