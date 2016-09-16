@@ -1,0 +1,20 @@
+{
+  "name": "cookies-printer",
+  "version": "1.0.0",
+  "description": "Guess what it does. Run it by",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renra/cookies-printer.git"
+  },
+  "author": "Jan Renra Gloser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renra/cookies-printer/issues"
+  },
+  "homepage": "https://github.com/renra/cookies-printer#readme"
+}
