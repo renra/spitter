@@ -13,6 +13,8 @@ function parseCookies (request) {
   return list;
 }
 
+var port = process.env.PORT || 3000;
+
 http.createServer(function(request, response){
   //var cookies = '<pre>' + JSON.stringify(parseCookies(request), null, 2) + '<pre>');
   //var headers = ()
@@ -43,4 +45,6 @@ http.createServer(function(request, response){
   });
 
   response.end();
-}).listen(process.env.PORT || 3000);
+}).listen(port);
+
+console.log('Server running on port: ' + port);
